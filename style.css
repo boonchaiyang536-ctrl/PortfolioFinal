@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+   font-family: "Montserrat", sans-serif;
+   margin:0;
+   background-color:white;
+}
+
+
+h1, h2, h3{
+   font-family: "Shadows Into Light", cursive;
+}
+
+h1{
+color: maroon;
+font-size:4em;
+}
+/* This is a comment */
+header{
+	text-align: center;
+	background-color: white;
+	max-height: 200px;
+}
+/* Website Links except the nav */
+
+a:link{
+	color: #b300b3;
+}
+a:visited{
+	color: #b300b3;
+}
+a:hover{
+	color: orangered;
+}
+a:active{
+	color: black;
+}
+
+/* Navigation */
+nav{
+	text-align: center;
+	background-color: maroon;
+	border-top: 3px solid black;
+	border-bottom: 3px solid black;
+	max-height: 200px;
+    margin-top: 7px;
+}
+nav ul{
+	list-style-type: none;
+	padding: 0;
+	margin: 8px 0;
+}
+nav li{
+	display: inline;
+	padding: 10px;
+}
+nav a{
+	text-decoration: none;
+}
+nav a:link{	
+	color:yellow;
+}
+nav a:visited{	
+	color:yellow;
+}
+nav a:hover{
+color:orangered;	
+}
+nav a:active{	
+	color:deeppink;
+}
+main{
+	max-width: 1000px;
+	margin: 20px auto;
+	padding: 10px;
+}
+/*Footer*/
+footer{
+	border-top: purple 3px solid;
+	text-align: center;
+}
+
+/* CSS for Tablets */
+@media only screen and (max-width: 1024px){
+
+	h1{
+	font-size: 1.8em;
+	}
+}
+
+/* CSS for Smartphones */
+@media only screen and (max-width: 768px){
+
+	h1{
+	font-size: 1.5em;
+	}
+}
+
+.home-hero{
+    background-image: url(images/Background.jpg);
+    background-size: cover;
+}
+
+.home-hero h1{
+    font-family: 'Dancing Script', cursive;
+    color: white;
+    font-size: 60px;
+    text-shadow: 2px 2px 2px black;
+    text-align: center;
+    padding: 50px 0;
+    margin: 0;
+}
+.home-photo{
+    float: right;
+    max-width: 50%;
+    height: auto;
+    margin: 10px 0 10px 20px;
+}
+#game {
+  width: 570px;      
+  margin: 0 auto;   
+  display: block;    
+}
+.game-controls {
+  text-align: center; 
+  margin-top: 15px;
+}
+/* JavaScript Game changes for mobile */
+.mobile{
+	display:none;
+}
+@media only screen and (max-width: 768px){
+	.desktop{	
+	display:none;
+	}
+	.mobile{
+		display: block;
+		touch-action: manipulation;
+	}
+}
+
+h2{
+color: gold;
+border: 5px solid #333;
+padding: 5px;            
+margin: 5px;              
+width: 420px;              
+background-color: maroon;
+border-radius: 30px;
+max-width: 5in;
+}
+h3{
+color: maroon;           
+margin: 5px;              
+width: 420px; 
+max-width: 5in;             
+}
+.fa{
+	font-size: 1em;
+	color: orangered;
+
+.my-button:link{
+    background-color: #551461;
+    color: white;
+    border-radius: 50px;
+    border: 1px solid #111111;
+    padding: 8px 15px;
+    margin: 50px;
+}
+
+.my-button:hover{
+    background-color: #7B1461;
+    text-decoration: none;
+}
+.logo{
+   margin: 0 auto;
+   display:block;
+   padding-bottom: 80px;
+}
+main{
+    padding: 40px 20px;
+}
